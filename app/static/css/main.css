@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+.all {
+    padding: 3%;
+    font-family: 'Fira Sans', sans-serif;
+}
+.main {
+    padding: 3%;
+}
+
+.bhead {
+    background-color: #b8c6db;
+    background-image: linear-gradient(0deg, #b8c6db 0%, #f1f1f1 74%);
+    border: solid 1px #b8c6db;
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3%;
+    font-weight: bold;
+}
+.bbody {
+    border: solid 1px #b8c6db;
+    padding: 5%;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
