@@ -28,6 +28,7 @@ For small changes, open an issue or do it by yourself.
 $ git clone https://github.com/BlackIQ/covid
 $ cd covid
 $ pipenv shell
+$ pip install flask requests
 ```
 
 - Export variables and run **Flask app**.
