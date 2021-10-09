@@ -56,5 +56,5 @@ This project is licensed under **GPL-3** license
 
 ### TODO
 
-- [ ] Front-End design
-- [ ] Deploy
+- [x] Front-End design
+- [x] Deploy
