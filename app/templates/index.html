@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Covid 19 Status</title>
+        <link href="static/css/main.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/4a679d8ec0.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body class="all">
+        <div class="main">
+            <div class="row">
+                {% for i in range(len) %}
+                <div class="col-md-3">
+                    <div class="box">
+                        <div class="bhead">
+                            {{api[i]['country_name']}}
+                        </div>
+                        <div class="bbody">
+                            <p class="blue">
+                                <i class="fa fa-hospital-o"></i> {{api[i]['total_cases']}}
+                            </p>
+                            <p class="red">
+                                <i class="fa fa-skull"></i> {{api[i]['total_deaths']}}
+                            </p>
+                            <p class="green">
+                                <i class="fa fa-id-card"></i> {{api[i]['id']}}
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
