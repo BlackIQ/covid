@@ -14,7 +14,7 @@ In this project we see total count of people who got this virus and total death.
 
 ### Where to see
 
-Open [covid.blackiq.ir](https://covid.blackiq.ir).
+Open [covid-blackiq.herokuapp.com/](https://covid-blackiq.herokuapp.com/).
 
 ### Contribute
 
