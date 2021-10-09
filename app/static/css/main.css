@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 
-.all {
-    padding: 3%;
-    font-family: 'Fira Sans', sans-serif;
-}
 .main {
-    padding: 3%;
+    padding: 5%;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .bhead {
