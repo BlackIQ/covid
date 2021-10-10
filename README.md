@@ -24,11 +24,12 @@ For small changes, open an issue or do it by yourself.
 
 - First clone it and go to the directory. Run `pipenv shell`.
 
+> This project is using **PipEnv**. Don't run `pip3 install`.
+
 ```shell
 $ git clone https://github.com/BlackIQ/covid
 $ cd covid
 $ pipenv shell
-$ pip install flask requests
 ```
 
 - Export variables and run **Flask app**.
